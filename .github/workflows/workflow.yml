@@ -1,0 +1,37 @@
+name: CI
+on:
+  push:
+    branches:
+      - "main"
+jobs:
+  release:
+    runs-on: ubuntu-16.04
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12"
+      - run: yarn install --frozen-lockfile --ignore-platform
+      # - run: yarn test
+      # - name: Run TS compiler to check for errors
+      #   run: yarn tsc
+      - name: Build lib
+        run: yarn build && ls -l ./lib
+      - name: Verify build
+        run: test -f lib/index.js
+      - name: Copy configs to lib
+        run: cp .prettierrc.js lib
+      - name: Release NPM package
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: npx semantic-release
+      - name: Build Storybook
+        run: yarn build-storybook
+      - name: Deploy Storybook
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: storybook-static # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
