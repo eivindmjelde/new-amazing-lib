@@ -4,7 +4,7 @@
     "lib": ["es2015", "dom"],
     "outDir": "./lib",
     "jsx": "react",
-    "module": "CommonJS",
+    "module": "commonjs",
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
@@ -13,7 +13,6 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
-    "noEmit": false,
     "noImplicitThis": true,
     "alwaysStrict": true,
     "noUnusedLocals": true,
@@ -24,9 +23,10 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "allowJs": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "noEmit": false,
+    "composite": false,
+    "incremental": false,
+    "allowJs": true
   },
   "include": ["./src"],
   "exclude": [
