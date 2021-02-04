@@ -2,7 +2,7 @@ name: CI
 on:
   push:
     branches:
-      - "main"
+      - 'main'
 jobs:
   release:
     runs-on: ubuntu-16.04
@@ -10,9 +10,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: "12"
+          node-version: '12'
       - run: yarn install --frozen-lockfile --ignore-platform
-      # - run: yarn test
+      - run: yarn test
       # - name: Run TS compiler to check for errors
       #   run: yarn tsc
       - name: Build lib
@@ -20,7 +20,7 @@ jobs:
       - name: Verify build
         run: test -f lib/index.js
       - name: Copy configs to lib
-        run: cp .prettierrc.js lib
+        run: mkdir lib/configs && cp .*.js lib/configs
       - name: Release NPM package
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

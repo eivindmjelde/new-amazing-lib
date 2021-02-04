@@ -31,12 +31,6 @@
     "build-storybook": "build-storybook",
     "semantic-release": "semantic-release"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -92,20 +86,6 @@
       "@semantic-release/npm",
       "@semantic-release/git",
       "@semantic-release/github"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsc && lint-staged",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
-    }
-  },
-  "lint-staged": {
-    "*.+(js|ts|tsx)": [
-      "eslint"
-    ],
-    "**/*.+(js|json|ts|tsx)": [
-      "prettier --write"
     ]
   }
 }
