@@ -1,3 +1,10 @@
+# 1.0.0 (2021-02-04)
+
+
+### Features
+
+* **everything:** first commit ([a0aa428](https://github.com/eivindmjelde/new-amazing-lib/commit/a0aa428f529f5962329dc3c785b067b5f12891de))
+
 ## [1.2.1](https://github.com/eivindmjelde/my-amaze-lib/compare/v1.2.0...v1.2.1) (2021-02-03)
 
 
