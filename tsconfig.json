@@ -24,11 +24,10 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "noEmit": false,
-    "composite": false,
-    "incremental": false,
+    "composite": true,
     "allowJs": true
   },
-  "files": ["./src/index.ts"],
+  "include": ["./src"],
   "exclude": [
     "**/*.test.ts",
     "**/*.test.tsx",
