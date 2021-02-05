@@ -28,7 +28,7 @@
     "incremental": false,
     "allowJs": true
   },
-  "include": ["./src"],
+  "files": ["./src/index.ts"],
   "exclude": [
     "**/*.test.ts",
     "**/*.test.tsx",
