@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: '12'
       - run: yarn install --frozen-lockfile --ignore-platform
-      # - run: yarn test
+      - run: yarn test
       # - name: Run TS compiler to check for errors
       #   run: yarn tsc
       - name: Build lib
