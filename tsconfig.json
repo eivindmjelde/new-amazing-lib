@@ -24,7 +24,10 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "noEmit": false,
-    "allowJs": true
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true
   },
   "include": ["./src"],
   "exclude": [
@@ -32,6 +35,7 @@
     "**/*.test.tsx",
     "**/*.stories.tsx",
     "./src/setupTests.ts",
-    "./src/reportWebVitals.ts"
+    "./src/reportWebVitals.ts",
+    "./src/react-app-env.d.ts"
   ]
 }

@@ -15,6 +15,10 @@ jobs:
       - run: yarn test
       # - name: Run TS compiler to check for errors
       #   run: yarn tsc
+      - name: Set noEmit=false prior to build
+        run:
+          jq '.compilerOptions.noEmit = false' tsconfig.json > tsconfig.tmp &&
+          mv tsconfig.tmp tsconfig.json
       - name: Build lib
         run:
           yarn tsc --showConfig && yarn build && yarn tsc --showConfig && ls -l
