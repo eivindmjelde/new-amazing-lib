@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.0.0...v1.1.0) (2021-02-05)
+
+
+### Features
+
+* **configs:** try to bundle configs in package ([8f95eea](https://github.com/eivindmjelde/new-amazing-lib/commit/8f95eead73fe2632f621cad04880b77b3d97fc58))
+
 # 1.0.0 (2021-02-04)
 
 
