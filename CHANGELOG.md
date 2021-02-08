@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.1.0...v1.2.0) (2021-02-08)
+
+
+### Features
+
+* **circle:** change color ([2b9e59f](https://github.com/eivindmjelde/new-amazing-lib/commit/2b9e59f6f767b39ac4370d060bb4da281b49699a))
+
 # [1.1.0](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.0.0...v1.1.0) (2021-02-05)
 
 
