@@ -20,7 +20,7 @@ const sizeToScale = (size: AmazingCircleProps['size']) => {
 
 const Circle = styled.div<AmazingCircleProps>`
   border-radius: 50%;
-  background-color: orange;
+  background-color: red;
   width: 100px;
   height: 100px;
   transform: ${p => `scale(${sizeToScale(p.size)})`};
