@@ -1,3 +1,15 @@
+# [1.3.0-beta.1](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.2.0...v1.3.0-beta.1) (2021-02-09)
+
+
+### Bug Fixes
+
+* **package.json:** moved styled-components from devdeps to deps ([3494e07](https://github.com/eivindmjelde/new-amazing-lib/commit/3494e0773a31a573a39e484f68cd8daba00e5eac))
+
+
+### Features
+
+* **box:** some feature I want to test as a beta ([e8f8b4d](https://github.com/eivindmjelde/new-amazing-lib/commit/e8f8b4d8be34663b9ebe287882a7230c1418bc23))
+
 # [1.2.0-beta.1](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.1.0...v1.2.0-beta.1) (2021-02-09)
 
 
