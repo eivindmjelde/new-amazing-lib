@@ -1,3 +1,15 @@
+# [1.2.0-beta.1](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.1.0...v1.2.0-beta.1) (2021-02-09)
+
+
+### Bug Fixes
+
+* **package.json:** moved styled-components from devdeps to deps ([08b630e](https://github.com/eivindmjelde/new-amazing-lib/commit/08b630eb7db14cc85741fdbf30ec4f90b1c0cc6b))
+
+
+### Features
+
+* **circle:** change color ([2b9e59f](https://github.com/eivindmjelde/new-amazing-lib/commit/2b9e59f6f767b39ac4370d060bb4da281b49699a))
+
 # [1.1.0](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.0.0...v1.1.0) (2021-02-05)
 
 
