@@ -1,4 +1,9 @@
-# [1.2.0](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.1.0...v1.2.0) (2021-02-08)
+# [1.2.0-beta.1](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.1.0...v1.2.0-beta.1) (2021-02-09)
+
+
+### Bug Fixes
+
+* **package.json:** moved styled-components from devdeps to deps ([08b630e](https://github.com/eivindmjelde/new-amazing-lib/commit/08b630eb7db14cc85741fdbf30ec4f90b1c0cc6b))
 
 
 ### Features
