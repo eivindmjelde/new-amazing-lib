@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export type AmazingBoxProps = {
   madProp: string;
+  realProp: string;
 };
 
 const Box = styled.div`
@@ -12,6 +13,11 @@ const Box = styled.div`
 
 export function AmazingBox({
   madProp = 'crazy box',
+  realProp,
 }: AmazingBoxProps): ReactElement {
-  return <Box>Imma {madProp} yo!</Box>;
+  return (
+    <Box>
+      Imma {madProp} yo! But I also got {realProp}!
+    </Box>
+  );
 }
