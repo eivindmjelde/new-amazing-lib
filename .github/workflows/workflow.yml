@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - 'main'
+      - 'beta'
 jobs:
   release:
     runs-on: ubuntu-16.04
@@ -30,11 +31,13 @@ jobs:
       - name: Release NPM package
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
       - name: Build Storybook
+        if: github.ref == 'refs/heads/main'
         run: yarn build-storybook
       - name: Deploy Storybook
+        if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
