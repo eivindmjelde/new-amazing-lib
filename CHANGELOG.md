@@ -1,3 +1,10 @@
+# [1.3.0-beta.1](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.2.1...v1.3.0-beta.1) (2021-02-10)
+
+
+### Features
+
+* **box:** some feature I want to test as a beta ([3c934ad](https://github.com/eivindmjelde/new-amazing-lib/commit/3c934adff8fc04ec4cbbdbb532333117f379cf3e))
+
 ## [1.2.1](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.2.0...v1.2.1) (2021-02-09)
 
 # [1.3.0-beta.1](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.2.0...v1.3.0-beta.1) (2021-02-09)
