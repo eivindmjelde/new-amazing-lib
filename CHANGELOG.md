@@ -1,3 +1,18 @@
+# [2.0.0](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.2.1...v2.0.0) (2021-02-11)
+
+
+### Features
+
+* **box:** another fake breaking change ([cd0e456](https://github.com/eivindmjelde/new-amazing-lib/commit/cd0e456b9016c67be4aef78272548764678f86aa))
+* **box:** not really a breaking change but let's say it is ([0f8ff95](https://github.com/eivindmjelde/new-amazing-lib/commit/0f8ff953c5675fa0fd41e9aa831115da23955989))
+* **box:** some feature I want to test as a beta ([3c934ad](https://github.com/eivindmjelde/new-amazing-lib/commit/3c934adff8fc04ec4cbbdbb532333117f379cf3e))
+
+
+### BREAKING CHANGES
+
+* **box:** test breaking change 2
+* **box:** test
+
 # [1.3.0-beta.1](https://github.com/eivindmjelde/new-amazing-lib/compare/v1.2.1...v1.3.0-beta.1) (2021-02-10)
 
 
