@@ -8,7 +8,7 @@ export type AmazingBoxProps = {
 
 const Box = styled.div`
   padding: 100px;
-  border: 2px solid brown;
+  border: 2px solid red;
 `;
 
 export function AmazingBox({
